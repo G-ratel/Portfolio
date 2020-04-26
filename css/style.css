@@ -1,0 +1,117 @@
+body{
+    background-color: black;
+    font-family: Graphik, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.maint{
+    background-color: black;
+    color: burlywood;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.maint a{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.icons{
+    background-color: black;
+    text-align: center;
+}
+.container1 {
+    flex: 1 1 auto;
+    min-width: 400px;
+    width: calc(100% - 50px);
+    max-width: 1150px;
+    background-color: burlywood;
+    min-height: fit-content;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+	padding: 30px;
+    border-radius: 5px;
+    text-align: justify;
+    display: inline-block;
+}
+.content div{
+	float: left;
+}
+.aboutimg {
+    width: 30%;
+}
+.aboutext {
+    width: 60%;
+    float: right;
+    margin-left: 30px;
+    font-weight: 300;
+}
+p{
+    font-weight: 500;
+    font-family: cursive;
+}
+ul {
+    font-weight: 500;
+    font-family: cursive;
+}
+.button {
+	margin: 0 auto;
+	background-color: black;
+	width: 10rem;
+    padding: 0.8rem;
+    color: burlywood;
+    text-transform: uppercase;
+	font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 40px;
+}
+h4 {
+    text-align: center;
+}
+.container1 .product div{
+	float: left;
+}
+.a {
+    width: 50%;
+}
+.b {
+    width: 50%;
+    float: right;
+}
+.container1 .product {
+    width: 100%;
+    display: inline-block;
+	font-size: 16px;
+	text-align: center;
+	padding: 0.8rem;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+footer {
+	background-color: #222020;
+	font-size: 0;
+	padding: 1.6rem 0rem;
+	width: 100%;
+}
+
+footer p {
+	font-family: Corbel;
+	color: #f5f2f1;
+	font-weight: 400;
+	font-size: 16px;
+	width: 20%;
+	display: inline-block;
+	text-align: center;
+}
+
+footer .copy-right {
+	width: 70%;
+	text-align: left;
+	padding-left: 4rem;
+}
